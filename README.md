@@ -2260,6 +2260,8 @@ https://github.com/metropolis-exchange/magicsea-staking/pull/23
 
 Source: https://github.com/sherlock-audit/2024-06-magicsea-judging/issues/346 
 
+The protocol has acknowledged this issue.
+
 ## Found by 
 Reentrants, pashap9990
 ## Summary
@@ -3336,9 +3338,17 @@ This report was chosen as the main report because it states the findings `Master
 
 When emergency withdrawing are made, Unclaimed rewards in `MasterChef` and `MlumStaking` contracts remain stuck in the contracts and are lost forever
 
+**sherlock-admin2**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/metropolis-exchange/magicsea-staking/pull/34
+
+
 # Issue M-18: Lack of support for fee on transfer, rebasing and tokens with balance modifications outside of transfers. 
 
 Source: https://github.com/sherlock-audit/2024-06-magicsea-judging/issues/545 
+
+The protocol has acknowledged this issue.
 
 ## Found by 
 0uts1der, 0xAnmol, 0xNilesh, 0xWhitehat, 4rdiii, AuditorPraise, Bauchibred, ChinmayF, Ericselvig, Honour, Hunter, John\_Femi, KiroBrejka, KupiaSec, LeFy, MSaptarshi, NoOne, PASCAL, PUSH0, Reentrants, Ryonen, Silvermist, Smacaud, StraawHaat, TessKimy, Tri-pathi, Vancelot, WildSniper, ZanyBonzy, bbl4de, blockchain555, dany.armstrong90, dhank, dimulski, dod4ufn, gajiknownnothing, hunter\_w3b, iamnmt, jennifer37, karsar, kmXAdam, minhquanym, neogranicen, novaman33, pinalikefruit, radin200, rbserver, scammed, sh0velware, sheep, slowfi, tedox, typicalHuman, walter, web3pwn, yixxas, zarkk01
